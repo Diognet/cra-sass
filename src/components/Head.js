@@ -5,7 +5,7 @@ export default function Head() {
     <div>
       <img src="/img/project/sly.jfif" alt="Discover" />
       <header className="header">
-        <p>Discover</p>
+        <h1>Discover</h1>
       </header>
     </div>
   );
