@@ -9,17 +9,29 @@ body {
 
 .header {
   background-color: #000000;
-  width: 1248px;
+  width: 100%; /* Установка ширины в 100% для header */
   height: 80px;
-  left: 0.5px;
+  display: flex; /* Добавление flexbox для центрирования логотипа и меню */
+  justify-content: space-between; /* Равномерное распределение элементов по ширине */
+  align-items: center; /* Выравнивание по вертикали */
 }
 
 .logo {
   width: 104px;
   height: 35.11px;
-  top: 24px;
-  left: 81.5px;
-  background: #ff70d9;
+  /* Добавление отступов, если нужно */
+  margin-left: 10px; /* Пример отступа слева */
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px; /* Пример отступа справа */
+}
+
+.menu-item {
+  color: #ffffff; /* Белый текст */
+  text-decoration: none; /* Удаление подчёркивания */
+  margin-left: 20px; /* Отступ между элементами меню */
 }
 .offers {
   background-position: center bottom, center top;
