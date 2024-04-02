@@ -33,6 +33,21 @@ body {
   text-decoration: none; /* Удаление подчёркивания */
   margin-left: 20px; /* Отступ между элементами меню */
 }
+.buttonStyle {
+  background-color: #EBFF00;
+  width: 191px;
+  height: 54px;
+  padding: 14px 40px;
+  border-radius: 100px 0px 0px 0px;
+  opacity: 0;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  line-height: 54px;
+  border: none;
+  font-size: 16px;
+  color: #000000;
+}
 .offers {
   background-position: center bottom, center top;
   background-repeat: no-repeat, no-repeat;
