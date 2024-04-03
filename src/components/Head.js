@@ -13,12 +13,12 @@ export default function Head() {
       </header>
       <style>{`.space-color { color: #FF70D9;}`}</style>
 
-      <span className="endless-color" style={{ color: '#EBFF00' }}>
+      <span className="endless-color" style={{ color: '#EBFF01' }}>
         endless!
       </span>
       <h2>
         Where the possibilities are
-        <span className="endless-color" style={{ color: '#EBFF00' }}>
+        <span className="endless-color" style={{ color: '#EBFF01' }}>
           endless!
         </span>
         {/*  кнопка */}
